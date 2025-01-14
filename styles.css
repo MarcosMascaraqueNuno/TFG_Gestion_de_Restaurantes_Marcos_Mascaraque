@@ -1,0 +1,744 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+/* Tabla de Reservas */
+.tabla {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.tabla th, .tabla td {
+    min-width: 120px;
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.tabla th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.tabla tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabla tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Estilo para los botones */
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.buttons {
+    text-align: right;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.button{
+    display: inline-block;
+    background-color: #0056b3;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background-color: #004189;
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    text-align: left;
+    padding: 10px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+select {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+select:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+
+.tabla {
+    border-collapse: collapse;
+    max-width: 70%;
+    width: auto;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 20px auto;
+}
+
+.tabla th, .tabla td {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+.tabla th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.tabla tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tabla tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.formulario {
+    width: 30%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="number"],
+.formulario input[type="password"],
+.formulario input[type="email"],
+.formulario input[type="file"],
+.formulario input[type="date"] {
+    width: 95%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.formulario input[type="time"] {
+    width: 25%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#tipos_comida {
+    width: 100%;
+    font-size: 16px;
+    height: 40px;
+    padding: 10px;
+}
+
+.formulario select {
+    width: 20%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.formulario input[type="submit"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.estrella-img {
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+}
+
+.perfil {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    text-align: left;
+}
+
+.perfil h2 {
+    color: #3498db;
+    margin-top: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.search-form input[type="text"] {
+    padding: 8px;
+    width: 150px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-form button {
+    background-color: #0056b3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 8px 20px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.search-form button:hover {
+    background-color: #004189;
+}
+
+a.boton {
+    display: inline-block;
+    background-color: #0056b3;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: -100px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+a.boton:hover {
+    background-color: #004189;
+}
+
+/* Estilos para las tarjetas de restaurante */
+.restaurant-card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    width: 300px;
+    height: 370px;
+    text-align: center;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.restaurant-card:hover {
+    transform: scale(1.05);
+}
+
+.restaurant-card h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.restaurant-card p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #000000;
+}
+
+.restaurant-card a {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    background-color: #007BFF;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+
+.restaurant-card a:hover {
+    background-color: #0056b3;
+}
+
+.restaurant-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Estilos para la barra de búsqueda */
+.search-bar {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+
+.pdf-container {
+    width: 115%;
+    max-width: 115%;
+    height: auto;
+    margin: 0 auto;
+    padding-right: 100px;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+.pdf-container canvas {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+/* Detalle restaurante*/
+
+.detalle-restaruante {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.contenedor-informacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-top: 100px;
+    gap: 20px;
+}
+
+.contenedor-informacion-izquierda {
+    padding-left: 10%;
+    padding-right: 400px;
+    max-width: 50%;
+    min-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor-informacion-derecha {
+    padding-right: 50px;
+    max-width: 50%;
+    text-align: center;
+}
+
+.contenedor-informacion-izquierda p,
+.contenedor-informacion-derecha p {
+    text-align: left;
+    text-align: justify;
+    text-align: center;
+
+}
+
+.contenedor-informacion a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    max-width: 120px;
+    text-align: center;
+}
+
+.contenedor-informacion a:hover {
+    background-color: #0056b3;
+}
+
+
+.map {
+    padding-top: 200px;
+    margin-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+
+.nivel-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 10px;
+    color: green;
+}
+
+
+.reservas-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reservas-table thead {
+    background-color: #007BFF;
+    color: white;
+}
+
+.reservas-table th, .reservas-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.reservas-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.reservas-table tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+.estado {
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.estado.pendiente {
+    background-color: orange;
+}
+
+.estado.confirmada {
+    background-color: green;
+}
+
+.estado.finalizada {
+    background-color: #bd868e;
+}
+
+.estado.cancelada {
+    background-color: red;
+}
+
+/* Carrusel */
+
+.carousel {
+    width: 40%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+
+.reseña {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #f9f9f9;
+}
+
+.reseña .comentario {
+    max-height: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+.reseña .comentario.expanded {
+    max-height: none;
+    overflow: visible;
+}
+
+.reseña .fecha {
+    font-size: 12px;
+    color: #777;
+    margin-top: 5px;
+}
+
+.reseña .calificacion {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+/* Filtros gestionar Reservas*/
+
+.filtros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.filtros form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+    width: auto;
+}
+
+.filtros label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+    white-space: nowrap;
+}
+
+.filtros input[type="date"],
+.filtros select,
+.filtros .button {
+    height: 36px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    transition: border-color 0.3s;
+    flex-shrink: 0;
+}
+
+.filtros .button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.filtros .button:hover {
+    background-color: #0056b3;
+}
+
+/*Formulario de reseñas*/
+.form-container {
+    max-width: 600px;
+    margin: 100px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h1 {
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-container input,
+.form-container select {
+    width: 50%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-container textarea {
+    width: 90%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-container button {
+    background-color: #007BFF;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    margin-bottom: 1rem;
+}
+
+/* Popup modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.modal-content button {
+    background-color: #007BFF;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.modal-content button:hover {
+    background-color: #0056b3;
+}
+
+/*Boton cancelar reservas*/
+.mensaje-exito {
+    color: green;
+    font-weight: bold;
+}
+
+.mensaje-error {
+    color: red;
+    font-weight: bold;
+}
+
+
+
